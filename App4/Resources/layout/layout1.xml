@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+    android:text="Stop"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnStop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button start"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnStart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelEditText"
+        android:layout_gravity="center_horizontal"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Jmeno"/>
+<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:text="Send"/>
+        <EditText
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+            android:hint="Message"
+            android:padding="2dp"/>
+    </LinearLayout>
+</LinearLayout>
